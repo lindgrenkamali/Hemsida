@@ -1,0 +1,140 @@
+.a4 {
+    width: 42rem;
+    height: 59.4rem;
+    display: block;
+    margin: auto;
+    color: black;
+    box-shadow: 0rem 0.1rem 1rem;
+}
+
+.profile {
+    height: 51.4rem;
+    width: 15rem;
+    background-color: #90e0ef;
+    padding-top: 8rem;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    animation-name: leftToRight;
+    animation-duration: 1.5s;
+    float:left;
+    margin-right: 2rem;
+}
+
+ @keyframes leftToRight {
+    from{
+        transform: translateX(-500%);
+    }
+    to{
+        transform: translateX(0);
+    }
+ }
+
+@keyframes upToDown {
+    from{
+        transform: translateY(-500%);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+#photo {
+    height: 8rem;
+    border-radius: 5rem;
+    border: 0.2rem solid rgb(0, 0, 0);
+    
+}
+
+.name {
+font-weight: bold;
+font-size: 1.5rem;
+}
+
+.work {
+    font-size: 1rem;
+
+}
+
+.aboutme {
+    font-size: 1rem;
+    margin: 1rem;
+}
+
+.contact {
+    margin-top: 4rem;
+}
+
+.phone {
+    font-size: 0.9rem;
+}
+
+.mail {
+    
+}
+
+.adress 
+{
+
+}
+
+.sql
+{
+background-color: rgb(99, 99, 214);
+border-radius: 4rem/1.5rem;
+border: solid 1rem white;
+color: white;
+font-size: 2rem;
+max-width: 5rem;
+}
+
+.sql > p {
+text-align: center;
+margin-top: 0.5rem;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.code {
+    column-count: 2;
+    margin: auto;
+   
+}
+
+
+.code > * {
+    margin: 0.5rem;
+    height: 6rem;
+    width: 6rem;
+}
+
+.code > *:hover {
+transform: rotate(360deg);
+transition: 1s;
+}
+
+.social {
+    margin: 2rem;
+}
+
+.social > img {
+height: 4rem;
+
+}
+
+.biography {
+float:inline-start;
+padding-top: 8rem;
+animation-name: upToDown;
+animation-duration: 1.5s;
+}
+
+.white {
+background-color: white;
+width: 5rem;
+height: 2rem;
+margin: auto;
+margin-top: -0.9rem;
+border-radius: 5rem/2rem;
+}
+
