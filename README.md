@@ -2,10 +2,11 @@
 
 # Skapad med ren HTML, CSS och Javascript
 
-#Egenskaper
+# Egenskaper
+
 Kanten runt profilbilden ändrar färg efter tid
 Majoriteten av ikonerna skapade med CSS
 Rör över ikonerna för att få de att rotera
 
-#Länk
+# Länk
 https://lindgrenkamali.github.io/Hemsida/
