@@ -80,6 +80,24 @@ left: 1rem;
 
 }
 
+.bootstrap {
+    background: linear-gradient(
+        to right,
+        rgb(136, 18, 252) 0%,
+        rgb(118, 17, 247) 100%
+    );
+    display: flex;
+    justify-content: center;
+    border-radius: 1.5rem;
+}
+
+.letterb{
+    font-size: 3.5rem;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
 .container {
     padding: 2rem;
 
