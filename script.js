@@ -5,7 +5,6 @@ let blue = 0;
 
 
 setInterval(changeBorderColor, 50);
-setAge();
 
     function changeBorderColor()
     {
@@ -74,6 +73,6 @@ function setAge()
    let today = new Date();
    const age = today.getFullYear() - birth.getFullYear();
 
-   document.getElementById("age").innerText = age;
+   document.getElementById("age").innerText = age + " år";
    
 }

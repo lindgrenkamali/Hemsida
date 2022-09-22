@@ -6,6 +6,10 @@
     align-items: center;
     animation-name: leftToRight;
     animation-duration: 1s;
+    color: white;
+}
+#age{
+    align-self: flex-start;
 }
 
 .logo {
