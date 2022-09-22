@@ -2,7 +2,10 @@ let red = 0;
 let green = 0;
 let blue = 0;
 
+
+
 setInterval(changeBorderColor, 50);
+setAge();
 
     function changeBorderColor()
     {
@@ -62,11 +65,15 @@ setInterval(changeBorderColor, 50);
         else {
             green -=1;
         }
+       
+}
 
-        console.log(red, green, blue);
-        
+function setAge()
+{
+   let birth = new Date("2000-06-13");
+   let today = new Date();
+   const age = today.getFullYear() - birth.getFullYear();
 
-        
-    
-
+   document.getElementById("age").innerText = age;
+   
 }

@@ -1,3 +1,103 @@
+.top{
+    width: 42rem;
+    height: 10rem;
+    background-color: #3f8593;
+    display: flex;
+    align-items: center;
+    animation-name: leftToRight;
+    animation-duration: 1s;
+}
+
+.logo {
+    width: 6rem !important;
+    height: 6rem !important;
+    margin: 1rem;
+}
+
+.languages {
+display: flex;
+
+}
+
+.frameworks {
+    display: flex;
+}
+
+.net {
+background-color: rgb(81, 43, 212);
+display: flex;
+justify-content: center;
+}
+
+.nettext {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    
+
+}
+
+.container > div {
+    margin: 1rem;
+}
+
+.logo:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.upperv {
+color: rgb(52, 73, 94);
+font-size: 6rem;
+margin: 0;
+position: absolute;
+display: block;
+left: 1.5rem;
+bottom: 0.265rem;
+}
+
+.lowerv{
+color: rgb(65, 184, 131);
+font-size: 6rem;
+margin: 0;
+position: absolute;
+display: block;
+left: 1rem;
+}
+
+.fillv {
+    background-color: rgb(52, 73, 94);
+    height: 0.8rem;
+    width: 0.8rem;
+    position: absolute;
+    left: 44%;
+    top: 71%;
+    
+}
+
+.vue {
+ position: relative;
+
+}
+
+.container {
+    padding: 2rem;
+
+}
+
+.headername {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+}
+
+.education{
+    color: white;
+    font-size: 1rem;
+    margin-left: 2rem;
+}
+
+
 .a4 {
     width: 42rem;
     height: 59.4rem;
@@ -14,26 +114,21 @@
 }
 
 .python {
-    height: 6rem;
-    margin: auto;
+height: 6rem;    
 }
 
-.profile {
-    height: 51.4rem;
-    width: 15rem;
-    background-color: #3f8593;
-    padding-top: 8rem;
-    text-align: center;
+.sqltext {
+    font-size: 1.8rem;
     color: white;
-    animation-name: leftToRight;
-    animation-duration: 1.5s;
-    float:left;
-    margin-right: 2rem;
+    text-align: center;
+    position: relative;
+    bottom: 10%;
 }
+
 
  @keyframes leftToRight {
     from{
-        transform: translateX(-500%);
+        transform: translateX(-150%);
     }
     to{
         transform: translateX(0);
@@ -53,35 +148,10 @@
     height: 8rem;
     border-radius: 5rem;
     border: 0.2rem solid rgb(0, 0, 0);
+    margin-left: 2rem;
     
 }
 
-.name {
-font-weight: bold;
-font-size: 1.5rem;
-}
-
-.work {
-    font-size: 1rem;
-
-}
-
-.aboutme {
-    font-size: 1rem;
-    margin: 1rem;
-}
-
-
-.sqlcontainer
-{
-border-radius: 3rem/1.5rem;
-color: white;
-font-size: 2rem;
-height: 6rem !important;
-width: 6rem !important;
-position: relative;
-
-}
 
 .csharp{
     color: white;
@@ -90,6 +160,10 @@ position: relative;
 }
 
 .sql{
+
+}
+
+.sqlcylinder{
     background-color: rgb(223, 162, 49);
     height: 6rem;
     width: 5rem;
@@ -97,71 +171,29 @@ position: relative;
     margin: auto;
 }
 
-.white {
+.sqlcircle {
     background-color: white;
     width: 4rem;
     height: 1.5rem;
-    position: absolute;
-    top:0.5rem;
+    position: relative;
     border-radius: 5rem/2rem;
     margin-left: 0.5rem;
+    top: 5%;
     }
     
-.sql > p {
-text-align: center;
-margin-top: 0.5rem;
-}
 
 .js {
     background-color: rgb(240, 219, 79);
-    position: relative;
+    display: flex;
+    text-align: end;
 }
 
 .jsheader
 {
-    position: absolute;
-    left: 30%;
-    top: 0%;
     font-size: 3rem;
+    width: 100%;
 }
 
-.code > * {
-    margin: 0.5rem;
-    height: 6rem;
-    width: 6rem;
-    display: flex;
-    margin-top: 1rem;
-}
-
-.code {
-    column-gap: 1rem;
-    columns: 6rem 2;
-    
-}
-
-.code > *:hover {
-transform: rotate(360deg);
-transition: 1s;
-}
-
-.social {
-    margin: 2rem;
-}
-
-.social > img {
-height: 4rem;
-
-}
-
-.biography {
-display: inline-block;
-padding-top: 8rem;
-animation-name: upToDown;
-animation-duration: 1.5s;
-height: 51.4rem;
-width: 17rem;
-
-}
 
 
 .hex:before {
@@ -174,18 +206,15 @@ width: 17rem;
     top: -1.5rem;
 }
 
-.csharpcontainer {
-    padding-top: 1rem;
-}
 
 .hex {
     margin-top: 1.5rem;
     width: 5.5rem;
     height: 3rem;
     background-color: purple;
-    position: relative;
-    
-    left: 5%;
+    position: absolute;
+    display: inline;
+
 }
 
 .hex:after {
