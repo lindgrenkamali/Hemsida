@@ -4,8 +4,8 @@
 
 # Egenskaper
 
-Kanten runt profilbilden ändrar färg efter tid/
-Majoriteten av ikonerna skapade med CSS/
+Kanten runt profilbilden ändrar färg efter tid<br />
+Majoriteten av ikonerna skapade med CSS<br />
 Rör över ikonerna för att få de att rotera
 
 # Länk
