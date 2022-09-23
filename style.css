@@ -12,6 +12,49 @@
     align-self: flex-start;
 }
 
+.jsplumb {
+    display: flex;
+    position: relative;
+    justify-content: end;
+}
+
+.jstext{
+    display: inline;
+    color: rgb(91, 169, 221);
+    font-size: 1.5rem;
+    
+}
+
+.plumbtext{
+    display: inline;
+    color: rgb(108, 122, 136);
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.uppero{
+    background-color: white;
+    border-radius: 2rem;
+    position: absolute;
+    height: 0.25rem;
+    width: 0.25rem;
+    border: solid 0.06rem rgb(91, 169, 221);
+    top: 27%;
+    right: 87%;
+}
+
+.lowero{
+    background-color: white;
+    border-radius: 2rem;
+    position: absolute;
+    height: 0.25rem;
+    width: 0.25rem;
+    border: solid 0.06rem rgb(91, 169, 221);
+    right: 95%;
+    top: 47.5%;
+}
+
 .logo {
     width: 6rem !important;
     height: 6rem !important;
