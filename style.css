@@ -33,26 +33,23 @@
 
 }
 
-.uppero{
-    background-color: white;
-    border-radius: 2rem;
-    position: absolute;
-    height: 0.25rem;
-    width: 0.25rem;
-    border: solid 0.06rem rgb(91, 169, 221);
+.upper-dot{
     top: 27%;
     right: 87%;
 }
 
-.lowero{
-    background-color: white;
-    border-radius: 2rem;
-    position: absolute;
-    height: 0.25rem;
-    width: 0.25rem;
-    border: solid 0.06rem rgb(91, 169, 221);
+.lower-dot{
     right: 95%;
     top: 47.5%;
+}
+
+.plumb-dot{
+    height: 0.25rem;
+    width: 0.25rem;
+    background-color: white;
+    border: solid 0.06rem rgb(91, 169, 221);
+    border-radius: 2rem;
+    position: absolute;
 }
 
 .logo {
